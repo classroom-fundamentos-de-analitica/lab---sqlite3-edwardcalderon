@@ -17,3 +17,5 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+SELECT SUM(c12) as sum_total
+from tbl1;
