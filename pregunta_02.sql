@@ -18,4 +18,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-SELECT COUNT(*) val_count FROM data;
+SELECT COUNT(*) val_count FROM tbl1;
