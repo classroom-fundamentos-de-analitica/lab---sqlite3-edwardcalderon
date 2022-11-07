@@ -40,4 +40,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-SELECT  K0, c16 FROM tbl1 WHERE SUBSTRING(c16, 1, 1) = SUBSTRING(K0, 1,1)
+SELECT  K0, c16 FROM tbl1 WHERE substr(c16, 1, 1) = substr(K0, 1,1)
