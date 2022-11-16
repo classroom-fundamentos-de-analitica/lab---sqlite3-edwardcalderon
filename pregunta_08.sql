@@ -33,7 +33,7 @@
 --  (columna c23).
 --
 --  Rta/
---     YEAR    avg(c21)
+--     YEAR    avg(c21)in
 --  0  2016  564.476429
 --  1  2017  515.156364
 --  2  2018  557.559375
@@ -41,4 +41,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-SELECT * FROM tbl1  WHERE K0!='A' and K0!='B' AND c13!=200 AND c13!=900 ORDER BY c14;
+select strftime('%Y', c23) as yyyy, avg(c21) from tbl2 group by strftime('%Y', c23);
